@@ -289,7 +289,8 @@ if __name__ == "__main__":
     if test_mode == "all":
         test_cfg_callback_all()
     else:
-        pass
+        for i in range(len(submenus)):
+            test_cfg_callback_suball(i)
 
 
 
